@@ -6,9 +6,9 @@
 }
 
 :root {
-    --purple-200: #9a7bd1;
-    --purple-500: #6b36c8;
-    --purple-800: #441f88;
+    --pink-200: #ffd6e0; /* rosa clarinho suave */
+    --pink-500: #f48fb1; /* rosa do batom, tom principal */
+    --pink-800: #c06382; /* rosa mais escuro para contrastes */
     --black-800: #171717;
     --gray-200: #cccccc;
     --white: #f9f9f9;
@@ -58,7 +58,7 @@ section {
 
 /* Header e Menu */
 header {
-    background: var(--purple-800);
+    background: var(--pink-800);
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -80,7 +80,7 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--purple-200);
+    color: var(--pink-200);
     text-decoration: underline;
 }
 
@@ -94,8 +94,8 @@ nav a:hover {
 #about img { 
     width: 200px; 
     height: 200px; 
-    border-radius: 50%; /* Transforma a imagem em um círculo perfeito (50% do raio) */
-    object-fit: cover; /* Ajusta a imagem para preencher o espaço sem distorcer, cortando o excesso se necessário */
+    border-radius: 50%; 
+    object-fit: cover; 
     aspect-ratio: 1 / 1;
     flex-shrink: 0;
 }
@@ -117,7 +117,7 @@ footer{
     justify-content: center;
     padding: 1rem;
     color: var(--white);
-    background-color: var(--purple-500);
+    background-color: var(--pink-500);
     font-weight: bold;
     text-align: center;
 }
@@ -180,17 +180,17 @@ textarea {
 }
 
 form button {
-    background: var(--purple-800);
+    background: var(--pink-800);
     color: var(--white);
     padding: 0.75rem;
-    border: 1px solid var(--purple-500);
+    border: 1px solid var(--pink-500);
     border-radius: 0.75rem;
     font-weight: 700;
     cursor: pointer;
 }
 
 form button:hover { 
-    background: var(--purple-500); 
+    background: var(--pink-500); 
 }
 
 form span{
